@@ -1,20 +1,35 @@
-# Web Templates Progress
+# Web Templates Collection
 
-This repository contains a growing collection of minimalist and modern web templates built with HTML and CSS. The goal is to provide clean, distraction-free starting points for various web projects.
+[!info]
+This repository features a collection of web templates with distinct looks, built using only HTML and CSS. Each template is designed to be clean, distraction-free, and easy to customize for your own projects.
 
-## Progress Overview
+---
 
-- **Simple/Minimalist Landing Page**
-  - Minimal navigation bar with responsive design
-  - Clean hero section with a clear call-to-action
-  - Modern pricing cards with placeholder plans (Basic, Pro, Enterprise)
-  - Fully responsive and visually appealing layout
+## Available Templates
 
-## How to Use
+### Minimalist
+- Modern, minimal landing page
+- Responsive navbar
+- Clean hero section
+- Stylish pricing cards (Basic, Pro, Enterprise)
 
-1. Clone or download the repository.
-2. Open any template folder (e.g., `Minimalist`) and launch `index.html` in your browser.
-3. Customize the HTML and CSS as needed for your project.
+### Old
+- Retro/old-school landing page
+- Vintage navbar with classic fonts
+- Hero section with nostalgic vibes
+- Retro pricing cards (Starter, Classic, Legend)
+
+---
+
+## Usage
+
+1. Clone or download this repository.
+2. Open any template folder (e.g., `Minimalist`, `Old`).
+3. Launch `index.html` in your browser.
+4. Customize the HTML and CSS to fit your needs.
+
+[!tip]
+Feel free to use these templates as a starting point for your own projects or to get inspired by different design eras!
 
 ## Next Steps
 - Add more template variations (e.g., blog, portfolio, dashboard)
@@ -26,5 +41,3 @@ This repository contains a growing collection of minimalist and modern web templ
 **Current Status:**
 - Landing page and pricing cards are implemented and styled.
 - Project structure is being expanded with new folders and templates.
-
-Feel free to contribute ideas or suggest features!

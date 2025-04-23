@@ -1,0 +1,225 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background: #f4ecd8;
+    color: #2d2a22;
+}
+
+.old-navbar {
+    width: 100%;
+    background: linear-gradient(90deg, #e6c36b 0%, #b58e4c 100%);
+    border-bottom: 4px double #7a5c1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 0 2px 10px 0 rgba(122, 92, 29, 0.08);
+}
+
+.old-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #7a5c1d;
+    text-shadow: 1px 1px 0 #fff6da;
+    letter-spacing: 2px;
+}
+
+.old-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.old-nav-links li a {
+    color: #7a5c1d;
+    text-decoration: underline wavy #b58e4c;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.old-nav-links li a:hover {
+    background: #fff6da;
+    color: #b58e4c;
+}
+
+.old-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5.5rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #a07c36;
+    text-shadow: 1px 1px 0 #fff6da;
+    margin-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #5c4b1b;
+}
+
+.old-cta-btn {
+    display: inline-block;
+    padding: 0.7rem 2.2rem;
+    background: #e6c36b;
+    color: #7a5c1d;
+    border: 2px solid #b58e4c;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    margin-top: 0.8rem;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+}
+
+.old-cta-btn:hover {
+    background: #fff6da;
+    color: #b58e4c;
+}
+
+.old-pricing-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.old-pricing-section h2 {
+    font-size: 1.7rem;
+    color: #7a5c1d;
+    margin-bottom: 1.8rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.old-pricing-cards {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 950px;
+}
+
+.old-pricing-card {
+    background: #fff6da;
+    border: 3px ridge #e6c36b;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px 0 rgba(186, 151, 58, 0.10);
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    flex: 1 1 230px;
+    min-width: 220px;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s, border 0.2s;
+}
+
+.old-pricing-card.old-featured {
+    border: 3px solid #7a5c1d;
+    background: #e6c36b;
+    box-shadow: 0 4px 24px 0 rgba(122, 92, 29, 0.13);
+}
+
+.old-pricing-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #7a5c1d;
+}
+
+.old-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #a07c36;
+}
+
+.old-price span {
+    font-size: 1rem;
+    color: #7a5c1d;
+    font-weight: 400;
+}
+
+.old-pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.2rem 0;
+    width: 100%;
+}
+
+.old-pricing-card ul li {
+    font-size: 1rem;
+    color: #5c4b1b;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.old-card-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #7a5c1d;
+    color: #fff6da;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s;
+    margin-top: auto;
+    border: 2px solid #e6c36b;
+}
+
+.old-card-btn:hover {
+    background: #fff6da;
+    color: #7a5c1d;
+}
+
+@media (max-width: 800px) {
+    .old-pricing-cards {
+        gap: 1.2rem;
+    }
+    .old-navbar {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .old-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 0.5rem;
+    }
+    .old-nav-links {
+        gap: 1rem;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .old-container {
+        padding-top: 7rem;
+    }
+}
