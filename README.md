@@ -1,7 +1,8 @@
 # Web Templates Collection
 
-[!info]
-This repository features a collection of web templates with distinct looks, built using only HTML and CSS. Each template is designed to be clean, distraction-free, and easy to customize for your own projects.
+> **ℹ️ Important**
+>
+> This repository features a collection of web templates with distinct looks, built using only HTML and CSS. Each template is designed to be clean, distraction-free, and easy to customize for your own projects.
 
 ---
 
@@ -28,8 +29,9 @@ This repository features a collection of web templates with distinct looks, buil
 3. Launch `index.html` in your browser.
 4. Customize the HTML and CSS to fit your needs.
 
-[!tip]
-Feel free to use these templates as a starting point for your own projects or to get inspired by different design eras!
+> **💡 Tip**
+>
+> Feel free to use these templates as a starting point for your own projects or to get inspired by different design eras!
 
 ## Next Steps
 - Add more template variations (e.g., blog, portfolio, dashboard)
