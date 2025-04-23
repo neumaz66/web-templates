@@ -1,13 +1,26 @@
-# Neon Theme
+# Web Templates Collection
 
 > **ℹ️ Important**
 >
-> The Neon theme is a bold, futuristic landing page template with glowing neon accents and a dark, modern look. It is built with only HTML and CSS for easy customization.
+> This repository features a collection of web templates with distinct looks, built using only HTML and CSS. Each template is designed to be clean, distraction-free, and easy to customize for your own projects.
 
 ---
 
-## Features
+## Available Templates
 
+### Minimalist
+- Modern, minimal landing page
+- Responsive navbar
+- Clean hero section
+- Stylish pricing cards (Basic, Pro, Enterprise)
+
+### Old
+- Retro/old-school landing page
+- Vintage navbar with classic fonts
+- Hero section with nostalgic vibes
+- Retro pricing cards (Starter, Classic, Legend)
+
+### Neon
 - Neon-inspired navbar with glowing logo and links
 - Futuristic hero section with bold headline
 - Bright call-to-action button
@@ -18,9 +31,10 @@
 
 ## Usage
 
-1. Open this folder (`Neon`).
-2. Launch `index.html` in your browser.
-3. Edit the HTML and CSS to make it your own.
+1. Clone or download this repository.
+2. Open any template folder (e.g., `Minimalist`, `Old`, `Neon`).
+3. Launch `index.html` in your browser.
+4. Customize the HTML and CSS to fit your needs.
 
 > **💡 Tip**
 >
