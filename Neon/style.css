@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+    background: #0f1021;
+    color: #fff;
+}
+
+.neon-navbar {
+    width: 100%;
+    background: #181933;
+    border-bottom: 2px solid #23ffd7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    box-sizing: border-box;
+    box-shadow: 0 0 12px 0 #23ffd780;
+}
+
+.neon-logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #23ffd7;
+    text-shadow: 0 0 8px #23ffd7, 0 0 16px #23ffd7;
+    letter-spacing: 2px;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+
+.neon-nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.neon-nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 0.3rem 0.7rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    box-shadow: 0 0 0px #23ffd7;
+}
+
+.neon-nav-links li a:hover {
+    background: #23ffd7;
+    color: #181933;
+    box-shadow: 0 0 8px #23ffd7, 0 0 16px #23ffd7;
+}
+
+.neon-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 5.5rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-size: 2.6rem;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+    color: #23ffd7;
+    text-shadow: 0 0 12px #23ffd7, 0 0 24px #23ffd7;
+    margin-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #a6faff;
+}
+
+.neon-cta-btn {
+    display: inline-block;
+    padding: 0.8rem 2.2rem;
+    background: #23ffd7;
+    color: #181933;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+    margin-top: 0.8rem;
+    text-decoration: none;
+    box-shadow: 0 0 12px #23ffd7, 0 0 24px #23ffd7;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.neon-cta-btn:hover {
+    background: #0f1021;
+    color: #23ffd7;
+    box-shadow: 0 0 24px #23ffd7, 0 0 48px #23ffd7;
+}
+
+.neon-pricing-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.neon-pricing-section h2 {
+    font-size: 1.9rem;
+    color: #23ffd7;
+    margin-bottom: 2rem;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+    text-shadow: 0 0 8px #23ffd7;
+}
+
+.neon-pricing-cards {
+    display: flex;
+    gap: 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 950px;
+}
+
+.neon-pricing-card {
+    background: #181933;
+    border: 2px solid #23ffd7;
+    border-radius: 16px;
+    box-shadow: 0 0 16px 0 #23ffd7a0;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    flex: 1 1 230px;
+    min-width: 220px;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s, border 0.2s;
+    position: relative;
+}
+
+.neon-pricing-card.neon-featured {
+    border: 2.5px solid #ff2ee6;
+    box-shadow: 0 0 32px 0 #ff2ee6a0;
+}
+
+.neon-pricing-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+    color: #23ffd7;
+    text-shadow: 0 0 8px #23ffd7;
+}
+
+.neon-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ff2ee6;
+    text-shadow: 0 0 8px #ff2ee6;
+}
+
+.neon-price span {
+    font-size: 1rem;
+    color: #23ffd7;
+    font-weight: 400;
+    text-shadow: 0 0 6px #23ffd7;
+}
+
+.neon-pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.2rem 0;
+    width: 100%;
+}
+
+.neon-pricing-card ul li {
+    font-size: 1rem;
+    color: #a6faff;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-family: 'Orbitron', 'Segoe UI', Arial, sans-serif;
+}
+
+.neon-card-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: #ff2ee6;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    margin-top: auto;
+    border: none;
+    box-shadow: 0 0 12px #ff2ee6;
+}
+
+.neon-card-btn:hover {
+    background: #23ffd7;
+    color: #181933;
+    box-shadow: 0 0 24px #23ffd7;
+}
+
+@media (max-width: 800px) {
+    .neon-pricing-cards {
+        gap: 1.2rem;
+    }
+    .neon-navbar {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .neon-navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem 0.5rem;
+    }
+    .neon-nav-links {
+        gap: 1rem;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .neon-container {
+        padding-top: 7rem;
+    }
+}
