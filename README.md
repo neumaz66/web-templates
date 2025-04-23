@@ -27,12 +27,19 @@
 - Three glowing pricing cards (Starter, Glow Pro, Ultra)
 - Fully responsive and visually striking design
 
+### Modern
+- Split hero section: text and image side-by-side
+- Sticky, shadowed navbar
+- Clean, bold call-to-action
+- Three modern pricing cards (Starter, Growth, Elite)
+- Fresh color palette and sharp layout
+
 ---
 
 ## Usage
 
 1. Clone or download this repository.
-2. Open any template folder (e.g., `Minimalist`, `Old`, `Neon`).
+2. Open any template folder (e.g., `Minimalist`, `Old`, `Neon`, `Modern`).
 3. Launch `index.html` in your browser.
 4. Customize the HTML and CSS to fit your needs.
 
